@@ -1,9 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import './application.scss'
+import App from './App'
 
-// internal modules
-import '../assets/stylesheets/application.scss';
-import App from './components/App';
-
-// render an instance of the component in the DOM
-ReactDOM.render(<App />, document.querySelector('#root'));
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+)
