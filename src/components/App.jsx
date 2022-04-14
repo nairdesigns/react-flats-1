@@ -1,12 +1,12 @@
 import React from 'react';
-import './App.css';
-import './components/Flat'
+import './Flat'
 
 function App() {
   return (
     <main>
       React⚛️ + Vite⚡ + Replit🌀
       <Flat/>
+      
     </main>
   );
 }
